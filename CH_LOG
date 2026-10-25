@@ -1,0 +1,18 @@
+# Changelog
+
+All notable changes to QEYRO FI SDK are documented here.
+The format follows Keep a Changelog; versions follow Semantic Versioning.
+
+## [Unreleased]
+
+### Added
+- Oracle: `readOracle`, `getLevelIfFresh`, `readProposal`, `watchThreatLevel`.
+- Config encoders and decoders with the contracts' own validation for `QuantumThreatHook`, `TransactionLimitHook`, `EmergencyPause`, `DeFiRiskHook` and `RecoveryModule`, plus on-chain readers.
+- ERC-7579 helpers: `encodeInstallModule`, `encodeUninstallModule`, `encodeExecute` (single and batch), `decodeExecute`.
+- Approvals: `callHashOf` and `encodeApproveCall`, pinned by a test to a hash produced by the deployed contract.
+- `checkAccount`: best-effort ERC-7579 compatibility check where unknown stays `undefined`.
+- 18 tests, ESM build with type declarations.
+
+### Known gaps
+- Not published to npm yet.
+- No wallet or UserOperation submission: the SDK builds calldata only.
