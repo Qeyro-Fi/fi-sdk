@@ -1,0 +1,14 @@
+---
+name: Feature request
+about: Suggest a change to qeyro-fi-sdk
+labels: enhancement
+---
+
+**What do you want to build with the SDK?**
+
+**What is missing or awkward today?**
+
+**Proposed API** (function name, inputs, return value)
+
+**Does the contract already support it?**
+(The SDK mirrors the contracts; a new capability usually starts there.)
