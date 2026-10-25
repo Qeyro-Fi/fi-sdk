@@ -1,0 +1,4 @@
+*                    @qeyro-fi/maintainers
+/src/approvals.ts    @qeyro-fi/security-reviewers
+/src/execution.ts    @qeyro-fi/security-reviewers
+/src/hooks/          @qeyro-fi/security-reviewers
