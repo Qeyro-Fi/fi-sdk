@@ -1,6 +1,6 @@
 # Code of conduct
 
-We want QEYRO FI SDK to be a place where people can do careful technical work without friction.
+We want QEYRO FI SDK to be a place where people can do careful technical work without friction.....
 
 ## Expected behaviour
 
